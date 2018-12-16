@@ -1,0 +1,21 @@
+49. Interpolacja funkcjami bilinowymi na kwadracie podzielonym na n^2
+kwadratów przystaj¹cych. Zagêszczenie podzia³u kwadratu, a¿ do
+osi¹gniêcia b³êdu œredniokwadratowego, mierzonego w œrodkach kwadratów
+podzia³u, mniejszego od epsilon.
+
+Funkcje:
+
+a) CalculateError() - Liczy b³¹d na podstawie danego wskaŸnika na funkcjê, 
+listy wierzcho³ków kwadratów i parametrów f. interpoluj¹cej w tych wierzcho³kach
+
+b) FindVertices() - Wyznacza wierzcho³ki kwadratów na podstawie liczby 
+podzia³ów i wierzcho³ków brzegowych
+
+c) CalculateValues() - Wyznacza wartoœci funkcji w punktach opisanych na 
+liœcie na podstawie funkcji i listy wspó³rzêdnych
+
+d) Interpolate() - Wyznacza wartoœci parametrów funkcji interpoluj¹cych.
+
+d) Funkcja zewnêtrzna koordynuj¹ca a - c, na wejœcie dostaje opis kwadratu, 
+na którym bêdzie interpolowaæ i maks dopuszczalny b³¹d (maks liczba 
+podzia³ów?)

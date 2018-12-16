@@ -1,0 +1,2 @@
+Stosuj¹c metodê bisekcji wyznacz wszystkie wartoœci w³asne macierzy 
+trójdiagonalnej A, gdzie a(i,i)=4, a(i,i-1) = 1, a(i,i+1) = 1

@@ -1,11 +1,14 @@
-function [d] = WyznacznikA(n)
+function [d] = WyznacznikA(n, t)
 %WYZNACZNIKA Summary of this function goes here
 %   Detailed explanation goes here
+if(nargin == 1)
+    t = 0;
+end
 dpp = 1;
-dp = 4;
-d = 4;
+dp = (4-t);
+d = (4-t);
 for i = 2:n
-    d = dp*4 - dpp;
+    d = dp*(4-t) - dpp;
     dpp = dp;
     dp = d;
 end

@@ -1,6 +1,7 @@
 function [res] = Main(n)
 %MAIN Funkcja znajduj¹ca wartoœci w³asne trójdiagonalnej macierzy 1 4 1
 %   n - rz¹d macierzy
+%   res - wektor poziomy wartoœci w³asnych
 
 fun = @(x) WyznacznikA(n, x);
 

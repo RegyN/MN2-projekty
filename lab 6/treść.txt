@@ -1,0 +1,2 @@
+Wahad³o matematyczne. Zastosowaæ zmodyfikowan¹ metodê Eulera dla uk³adu dwóch równañ.
+Patrz: "Æwiczenia laboratoryjne z metod numerycznych" J. W¹sowskiego, OWPW, podrozdzia³ 7.6.

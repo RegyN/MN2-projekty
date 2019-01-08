@@ -1,6 +1,9 @@
 function [res] = CompareArrays(arr1, arr2, epsilon)
-%COMPAREARRAYS Summary of this function goes here
-%   Detailed explanation goes here
+%COMPAREARRAYS Porównanie wartoœci elementów dwóch wektorów z dopuszczalnym
+%b³êdem
+%   arr1, arr2 - porównywane wektory
+%   epsilon - maksymalna dopuszczalna ró¿nica miêdzy odpowiednimi elemntami
+%   res - zmienna boolowska, okreœla równoœæ wektorów
 if(nargin == 2)
     epsilon = 0.000001;
 end
